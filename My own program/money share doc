@@ -1,0 +1,42 @@
+Document for Moneyshare
+
+This application makes money sharing easy 
+
+there are times we have problems giving or taking money back after a trip with friends
+
+its get tougher when lots of people involved and harder when some people give different amount of money. 
+
+so this applicaion here can solve all those problems without any bugs maybe some ;)
+
+program will ask number of people got involved, total amount spent, number of people spent money and then calculate with effeciant code and will give you the right result
+
+test case
+
+-----------------
+Enter the details
+-----------------
+Number of persons got involved: 5
+Enter the total amount spent100
+Number of persons spent money: 2
+1 )
+investor name: james
+invested amount: 40
+2 )
+investor name: thomas
+invested amount: 60
+
+investor name and amount:
+1 )  james ,  40 .
+2 )  thomas ,  60 .
+
+-------------------------------
+Amount distribution information
+-------------------------------
+
+Non Investor should return amount: 20.0
+Investor james should get amount of 20.0 from other than investors with equal amount of 6.67
+Investor thomas should get amount of 40.0 from other than investors with equal amount of 13.33
+
+---------- Thank you ----------
+
+Want to try again(y/n):
