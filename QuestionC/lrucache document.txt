@@ -1,0 +1,24 @@
+Document for LRUCache
+
+Question C
+At Ormuco, we want to optimize every bits of software we write. Your goal is to write a new library that can be integrated to the Ormuco stack. Dealing with network issues everyday, latency is our biggest problem. Thus, your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration. This library will be used extensively by many of our services so it needs to meet the following criteria:
+
+
+gives a menu to select from 
+
+program will ask user to select from menu 
+
+enter the data as you need but only takes until size 5, so as you user is keep entering the data after he entered 5 already the first in data will get popped out
+
+then user can also access the data as the data being accessed it will take the first position with its current position (swaps with the one on top)
+
+Finally data gets expiered in 30 secons of that is not being accessed in 30 seconds (we can change time if we want)
+
+
+
+missing fuctionality:
+
+1 - Resilient to network failures or crashes.
+2 - Near real time replication of data across Geolocation. Writes need to be in real time.
+3 - Data consistency across regions
+4 - Locality of reference, d
